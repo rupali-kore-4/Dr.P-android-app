@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="351dp"
+                android:layout_height="wrap_content"
+                android:text=" 1)  Products containing essential\n       oils of Corymbia citriodoria at\n       1%, Cymbopogon nardus at 0.5%,\n       and Thymus vulgaris at 0.3% have\n       been used to reduce their severity\n       and occurence.\n 2)  Treat the disease with\n       SERENADE GARDEN, this broad\n       spectrum bio-fngicide is approved\n       for organic farming also it is safe\n       to use - you can treat and pick the\n       crops the same day.\n 3)  Use a slow-release, organic\n       fertilizer on plants and avoid\n       excess nitrogen."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.626" />
+
+            <ImageView
+                android:id="@+id/imageViewclose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.013"
+                app:srcCompat="@drawable/ic_close_icon" />
+
+            <Button
+                android:id="@+id/btnOK"
+                android:layout_width="155dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_button"
+                android:text="OK"
+                android:textSize="24sp"
+                app:backgroundTint="#357015"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="203dp"
+                android:layout_height="160dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.053"
+                app:srcCompat="@drawable/happy" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
